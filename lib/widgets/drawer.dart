@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -7,7 +8,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final imageUrl=
-    "https://www.google.com/search?q=naruto&hl=en&sxsrf=AJOqlzUPRA2HYP0ufpeMtdPVaxE3uVKhSw:1676545187172&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjl7dLC8Zn9AhWc1DgGHdBIBMkQ_AUoAXoECAEQAw&biw=1536&bih=750&dpr=1.25#imgrc=1D2_ML1sUpCF8M";
+    "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic1.cbrimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F09%2FNaruto-Sage-Mode.jpg&imgrefurl=https%3A%2F%2Fwww.cbr.com%2Fnaruto-every-movie-chronologically%2F&tbnid=sfRPs0pGbsbbxM&vet=12ahUKEwiTj9jD8Zn9AhXRmdgFHVY5DeMQMyggegUIARCnAg..i&docid=YHg41MhMXa7MTM&w=1920&h=960&q=naruto&hl=en&ved=2ahUKEwiTj9jD8Zn9AhXRmdgFHVY5DeMQMyggegUIARCnAg";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
